@@ -8,5 +8,5 @@ The main goal is to implement this neural network in Intel´s devices. Hence, we
 - I´m using [Google Colab](https://colab.research.google.com/) as my development environment. If you want to open the notebook, you have to have installed [Jupyter](https://jupyter.org/) in your system.
 - OS: Windows 10 Home
 - Python 3.7.4 64-bits
-- OpenVino version 2019 R3.1
+- OpenVino 2019 R3.1
 ## LICENSE
