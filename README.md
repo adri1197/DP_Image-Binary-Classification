@@ -1,6 +1,11 @@
 # Deep Learning | Image Binary Classification Model using Intel OpenVino Toolkit
 This repository is part of my final Bachelor´s Degree project. The idea is about take some images with damaged or not areas and identify which one of these owns each category (damaged,undamaged).
 
+![kitten](https://raw.githubusercontent.com/adri1197/DP_Image-Binary-Classification/master/damaged/post_064_056.png "Damaged")
+![kitten](https://raw.githubusercontent.com/adri1197/DP_Image-Binary-Classification/master/damaged/post_061_096.png "Damaged")
+![kitten](https://raw.githubusercontent.com/adri1197/DP_Image-Binary-Classification/master/undamaged/post_006_127.png "Undamaged")
+![kitten](https://raw.githubusercontent.com/adri1197/DP_Image-Binary-Classification/master/undamaged/post_007_094.png "Undamaged")
+
 The main goal is to implement this neural network in Intel´s devices. Hence, we will use the [OpenVino Toolkit](https://software.intel.com/en-us/openvino-toolkit) to obtain a multiplatform and optimize model in Intel´s hardware.
 ## Neural Network
 ## Installation
