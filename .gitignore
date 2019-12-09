@@ -1,4 +1,5 @@
 detection_cnn_modifications_TensorRT.ipynb
 detection_cnn_ORIGINAL.ipynb
-models/OpenVino/Benchmarks/
 estimator/
+models/TF
+notes/
