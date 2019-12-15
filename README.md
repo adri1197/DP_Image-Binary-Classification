@@ -8,9 +8,9 @@ This repository is part of my final Bachelor´s Degree project. The idea is abou
 
 The main goal is to implement this neural network in Intel´s devices. Hence, we will use the [OpenVino Toolkit](https://software.intel.com/en-us/openvino-toolkit) to obtain a multiplatform and optimize model to be used in Intel´s hardware.
 ## **Neural Network**
-The NN is deployed in Keras  ([Tensorflow])(https://www.tensorflow.org/api_docs/python/tf) using Python. The version of Tensorflow used is **2.0** for development, but for OpenVino is needed **1.15**.
-- Conv2D
-- 
+The NN is deployed in Keras by [Tensorflow](https://www.tensorflow.org/api_docs/python/tf) using Python. The version of Tensorflow is **2.0** for development, but for OpenVino, the **v1.15** is needed (check the rest of tools and dependencies in OpenVino´s web). This model is formed by the next layers:
+
+![kitten](https://raw.githubusercontent.com/adri1197/DP_Image-Binary-Classification/master/model_layers.png "Model")
 ### **Software**
 - I´m using [Google Colab](https://colab.research.google.com/) as my development environment.
 - Local Environment
@@ -24,7 +24,7 @@ The NN is deployed in Keras  ([Tensorflow])(https://www.tensorflow.org/api_docs/
 ### **Hardware**
 - Local Environment
     - CPU: Intel i7-6700HQ @2.60GHz - 4 Cores
-    - GPU: Intel HD Graphics 530 | NVIDIA GTX950M
+    - GPU: Intel HD Graphics 530 | NVIDIA GTX-950M
     - RAM: 12GB DDR4
 - Remote Environment
 ## **LICENSE**
