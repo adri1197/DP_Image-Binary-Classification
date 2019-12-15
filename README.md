@@ -11,7 +11,7 @@ The main goal is to implement this neural network in Intel´s devices. Hence, we
 The NN is deployed in Keras by [Tensorflow](https://www.tensorflow.org/api_docs/python/tf) using Python. The version of Tensorflow is **2.0** for development, but for OpenVino, the **v1.15** is needed (check the rest of tools and dependencies in OpenVino´s web). This model is formed by the next layers:
 
 ![kitten](https://raw.githubusercontent.com/adri1197/DP_Image-Binary-Classification/master/model_layers.png "Model")
-### **Software**
+## **Software**
 - I´m using [Google Colab](https://colab.research.google.com/) as my development environment.
 - Local Environment
     - OS: Windows 10 Home
@@ -21,7 +21,7 @@ The NN is deployed in Keras by [Tensorflow](https://www.tensorflow.org/api_docs/
     - OS: Ubuntu 18.04
     - Python 3.6.8
     - OpenVino 2019 R3
-### **Hardware**
+## **Hardware**
 - Local Environment
     - CPU: Intel i7-6700HQ @2.60GHz - 4 Cores
     - GPU: Intel HD Graphics 530 | NVIDIA GTX-950M
