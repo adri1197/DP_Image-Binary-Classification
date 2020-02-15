@@ -3,3 +3,5 @@ detection_cnn_ORIGINAL.ipynb
 estimator/
 models/TF
 notes/
+subset_images/
+video/
