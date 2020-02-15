@@ -5,8 +5,11 @@ As an example, the images have this view:
 
 ![kitten](damaged/post_064_056.png "Damaged")
 ![kitten](damaged/post_061_096.png "Damaged")
+![kitten](damaged/post_062_055.png "Damaged")
 ![kitten](undamaged/post_006_127.png "Undamaged")
 ![kitten](undamaged/post_007_094.png "Undamaged")
+![kitten](undamaged/post_008_057.png "Undamaged")
+![kitten](undamaged/post_091_044.png "Undamaged")
 
 The main goal is to implement this neural network in Intel´s devices. Hence, we will use the [OpenVino Toolkit](https://software.intel.com/en-us/openvino-toolkit) to obtain a multiplatform and optimized model to be used in Intel´s hardware.
 ## **Neural Network**
@@ -22,7 +25,7 @@ The NN is deployed in Keras by [Tensorflow](https://www.tensorflow.org/api_docs/
 - Remote Environment
     - OS: Ubuntu 18.04
     - Python 3.6.8
-    - OpenVino 2019 R3
+    - OpenVino 2020 1
 ## **Hardware**
 - Local Environment
     - CPU: Intel i7-6700HQ @2.60GHz - 4 Cores
