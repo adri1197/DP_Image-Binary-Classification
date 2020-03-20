@@ -38,6 +38,6 @@ The NN is deployed in Keras by [Tensorflow](https://www.tensorflow.org/api_docs/
     - VPU: Intel Movidius Myriad X VPU
 
 ## **Documentation**
-This work is based on a project developed by K. J. Somaiya College of Engineering, Vidyavihar, Mumbai & Centre of Studies in Resources Engineering, IIT Bombay, Powai, Mumbai(India).This is the [paper](docs/paper.pdf) that i´ve been followed.
+This work is based on a project developed by K. J. Somaiya College of Engineering, Vidyavihar, Mumbai & Centre of Studies in Resources Engineering, IIT Bombay, Powai, Mumbai(India).This is the [paper](docs/paper.pdf) that i´ve been following.
 
 ## **LICENSE**
