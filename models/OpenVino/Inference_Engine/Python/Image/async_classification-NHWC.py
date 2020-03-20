@@ -174,15 +174,6 @@ def main():
         print("{} {}".format('-' * len(classid_str), '-' * len(probability_str)))
         print("{} {}".format(str(labels[res_label]), str(result)))
         print("\n")
-'''        for id in top_ind:
-            det_label = labels_map[id] if labels_map else "{}".format(id)
-            label_length = len(det_label)
-            space_num_before = (7 - label_length) // 2
-            space_num_after = 7 - (space_num_before + label_length) + 2
-            space_num_before_prob = (11 - len(str(probs[id]))) // 2
-            print("{}{}{}{}{:.7f}".format(' ' * space_num_before, det_label,
-                                          ' ' * space_num_after, ' ' * space_num_before_prob,
-                                          probs[id]))'''
        
 
 if __name__ == '__main__':

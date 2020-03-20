@@ -1,7 +1,10 @@
 # **Deep Learning | Image Binary Classification Model using Intel OpenVino Toolkit**
+![kitten](docs/project_summary.png "Project Summary Flow")
+
+
 This repository is part of my end-of-degree´s project. The idea is about take some images with damaged or not areas and identify which one of these owns each category (damaged,undamaged).
 
-As an example, the images have this view:
+As an example, the images have this look:
 
 ![kitten](damaged/post_064_056.png "Damaged")
 ![kitten](damaged/post_061_096.png "Damaged")
@@ -9,7 +12,6 @@ As an example, the images have this view:
 ![kitten](undamaged/post_006_127.png "Undamaged")
 ![kitten](undamaged/post_007_094.png "Undamaged")
 ![kitten](undamaged/post_008_057.png "Undamaged")
-![kitten](undamaged/post_091_044.png "Undamaged")
 
 The main goal is to implement this neural network in Intel´s devices. Hence, we will use the [OpenVino Toolkit](https://software.intel.com/en-us/openvino-toolkit) to obtain a multiplatform and optimized model to be used in Intel´s hardware.
 ## **Neural Network**
@@ -36,6 +38,6 @@ The NN is deployed in Keras by [Tensorflow](https://www.tensorflow.org/api_docs/
     - VPU: Intel Movidius Myriad X VPU
 
 ## **Documentation**
-This work is based on a project developed by K. J. Somaiya College of Engineering, Vidyavihar, Mumbai and Centre of Studies in Resources Engineering, IIT Bombay, Powai, Mumbai(India).This is the [paper](docs/paper.pdf) that i´ve been followed.
+This work is based on a project developed by K. J. Somaiya College of Engineering, Vidyavihar, Mumbai & Centre of Studies in Resources Engineering, IIT Bombay, Powai, Mumbai(India).This is the [paper](docs/paper.pdf) that i´ve been followed.
 
 ## **LICENSE**
