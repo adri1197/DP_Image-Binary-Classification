@@ -6,12 +6,12 @@ This repository is part of my end-of-degree´s project. The idea is about take s
 
 As an example, the images have this look:
 
-![kitten](damaged/post_064_056.png "Damaged")
-![kitten](damaged/post_061_096.png "Damaged")
-![kitten](damaged/post_062_055.png "Damaged")
-![kitten](undamaged/post_006_127.png "Undamaged")
-![kitten](undamaged/post_007_094.png "Undamaged")
-![kitten](undamaged/post_008_057.png "Undamaged")
+![kitten](samples/damaged/post_064_056.png "Damaged")
+![kitten](samples/damaged/post_061_096.png "Damaged")
+![kitten](samples/damaged/post_062_055.png "Damaged")
+![kitten](samples/undamaged/post_006_127.png "Undamaged")
+![kitten](samples/undamaged/post_007_094.png "Undamaged")
+![kitten](samples/undamaged/post_008_057.png "Undamaged")
 
 The main goal is to implement this neural network in Intel´s devices. Hence, we will use the [OpenVino Toolkit](https://software.intel.com/en-us/openvino-toolkit) to obtain a multiplatform and optimized model to be used in Intel´s hardware.
 ## **Neural Network**

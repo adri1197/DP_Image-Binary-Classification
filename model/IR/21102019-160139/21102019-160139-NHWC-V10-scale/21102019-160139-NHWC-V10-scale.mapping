@@ -1,0 +1,111 @@
+<?xml version="1.0" ?>
+<mapping>
+	<map>
+		<framework name="conv2d_2/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="25" name="conv2d_2/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d/Relu" out_port_id="0"/>
+		<IR id="11" name="conv2d/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense/Relu" out_port_id="0"/>
+		<IR id="49" name="dense/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_1/Relu" out_port_id="0"/>
+		<IR id="21" name="conv2d_1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="activation/Relu" out_port_id="0"/>
+		<IR id="42" name="activation/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_3/Relu" out_port_id="0"/>
+		<IR id="41" name="conv2d_3/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_1/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="15" name="conv2d_1/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d/Conv2D" out_port_id="0"/>
+		<IR id="8" name="conv2d/Conv2D/Transpose_402" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_1/Conv2D" out_port_id="0"/>
+		<IR id="18" name="conv2d_1/Conv2D/Transpose_418" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="input_1" out_port_id="0"/>
+		<IR id="2" name="Mul_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d/BiasAdd" out_port_id="0"/>
+		<IR id="10" name="conv2d/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_3/Conv2D" out_port_id="0"/>
+		<IR id="38" name="conv2d_3/Conv2D/Transpose_450" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_3/BiasAdd" out_port_id="0"/>
+		<IR id="40" name="conv2d_3/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="flatten/Reshape" out_port_id="0"/>
+		<IR id="44" name="flatten/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="5" name="conv2d/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_1/BiasAdd" out_port_id="0"/>
+		<IR id="53" name="dense_1/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense_1/MatMul/ReadVariableOp" out_port_id="0"/>
+		<IR id="50" name="dense_1/MatMul/1_port_transpose1288_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_1/Sigmoid" out_port_id="0"/>
+		<IR id="54" name="dense_1/Sigmoid" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_2/Conv2D" out_port_id="0"/>
+		<IR id="28" name="conv2d_2/Conv2D/Transpose_434" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_2/BiasAdd" out_port_id="0"/>
+		<IR id="30" name="conv2d_2/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense_1/MatMul" out_port_id="0"/>
+		<IR id="51" name="dense_1/MatMul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_1/BiasAdd" out_port_id="0"/>
+		<IR id="20" name="conv2d_1/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense/MatMul/ReadVariableOp" out_port_id="0"/>
+		<IR id="45" name="dense/MatMul/1_port_transpose1284_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense/MatMul" out_port_id="0"/>
+		<IR id="46" name="dense/MatMul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_3/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="35" name="conv2d_3/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense/BiasAdd" out_port_id="0"/>
+		<IR id="48" name="dense/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_2/Relu" out_port_id="0"/>
+		<IR id="31" name="conv2d_2/Relu" out_port_id="1"/>
+	</map>
+</mapping>
