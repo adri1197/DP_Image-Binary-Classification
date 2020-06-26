@@ -1,4 +1,4 @@
-# **Deep Learning | Image Binary Classification Model for Quick Detection of Earthquakes using Intel OpenVino Toolkit**
+# **Image Binary Classification Model for rapid damage detection in earthquakes using OpenVino Toolkit**
 ![kitten](docs/project_summary.png "Project Summary Flow")
 
 
@@ -38,6 +38,6 @@ This CNN (Convolutional Neural Network) is deployed in Keras by [Tensorflow](htt
     - VPU: Intel Movidius Myriad X VPU
 
 ## **Documentation**
-This work is based on a project developed by K. J. Somaiya College of Engineering, Vidyavihar, Mumbai & Centre of Studies in Resources Engineering, IIT Bombay, Powai, Mumbai(India).This is the [paper](docs/paper.pdf) that i´ve been following.
+This work is based on a project developed by K. J. Somaiya College of Engineering, Vidyavihar, Mumbai & Centre of Studies in Resources Engineering, IIT Bombay, Powai, Mumbai (India). This is the [paper](docs/paper.pdf) that I´ve been following.
 
 ## **LICENSE**
