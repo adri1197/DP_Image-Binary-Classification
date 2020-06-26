@@ -1,4 +1,4 @@
-# **Deep Learning | Image Binary Classification Model using Intel OpenVino Toolkit**
+# **Deep Learning | Image Binary Classification Model for Quick Detection of Earthquakes using Intel OpenVino Toolkit**
 ![kitten](docs/project_summary.png "Project Summary Flow")
 
 
@@ -15,7 +15,7 @@ As an example, the images have this look:
 
 The main goal is to implement this neural network in Intel´s devices. Hence, we will use the [OpenVino Toolkit](https://software.intel.com/en-us/openvino-toolkit) to obtain a multiplatform and optimized model to be used in Intel´s hardware.
 ## **Neural Network**
-The NN is deployed in Keras by [Tensorflow](https://www.tensorflow.org/api_docs/python/tf) using Python. The version of Tensorflow is **2.0** for development, but for OpenVino, the **v1.15** is needed (check the rest of tools and dependencies in OpenVino´s web). This model is formed by the next layers:
+This CNN (Convolutional Neural Network) is deployed in Keras by [Tensorflow](https://www.tensorflow.org/api_docs/python/tf) using Python. The version of Tensorflow is **2.0** for development, but for OpenVino, the **v1.15** is needed (check the rest of tools and dependencies in OpenVino´s web). This model is formed by the next layers:
 
 ![kitten](docs/model_layers.png "Model")
 ## **Software**
