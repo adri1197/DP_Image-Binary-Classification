@@ -23,7 +23,7 @@ This is how the repository is structured:
 - **OpenVINO/:** All the content related to the inference phase.
     - **Python/:** Include all the scripts related to the inference phrase (including the video).
     - **IR/:** Models in Intermediate Representation form.
-- **Serving/profiler/:** Reports made for getting the execution time of Serving´s inference. These are profiler files in Tensorboard.
+- **Serving/profiler/:** Reports made for getting the execution time of Serving´s inference. These are profiler files in Tensorboard format.
 - **docs/:** Additional files for some images or additional content in the README file.
 - **model/:** All the content related to the training phase.
     - **Frozen/:** Serialized models and the scripts which make this process.
