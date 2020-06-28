@@ -5,3 +5,4 @@ models/TF
 notes/
 subset_images/
 models/
+logs/
