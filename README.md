@@ -4,7 +4,7 @@ This repository is part of my bachelor´s degree project. This is focused on the
 
 Through this technique belonging to the field of Deep Learning, it has been possible to design an application which allows us to detect whether there are damaged zones for an earthquake impact in an image. Therefore, it is used a specific topology for this problem. Specifically, the images used are provided by the earthquake occurred in Haití in 2010, obtained from an earth observation satellite called GeoEye-1.
 
-As an example, the images have this look:
+As an example, the images look like this:
 
 ![kitten](samples/damaged/post_064_056.png "Damaged")
 ![kitten](samples/damaged/post_061_096.png "Damaged")
