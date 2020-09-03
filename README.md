@@ -1,8 +1,8 @@
 # **Image Binary Classification Model for Rapid Damage Detection in Earthquakes using OpenVino Toolkit**
-This repository is part of my bachelor´s degree project. This is focused on the analysis and enhancement of all the processes related to the generation and implementation of a convolutional neural network.
+This repository is part of my bachelor´s degree project. This is focused on the analysis and enhancement of all the processes related to the generation and implementation of a Convolutional Neural Network.
 ![kitten](docs/project_summary.png "Project Summary Flow")
 
-Through this technique belonging to the field of Deep Learning, it has been possible to design an application which allows us to detect whether there are damaged zones for an earthquake impact in an image. Therefore, it is used a specific topology for this problem. Specifically, the images used provided by the earthquake occurred in Haití in 2010, obtained from an earth observation satellite called GeoEye-1.
+Through this technique belonging to the field of Deep Learning, it has been possible to design an application which allows us to detect whether there are damaged zones for an earthquake impact in an image. Therefore, it is used a specific topology for this problem. Specifically, the images used are provided by the earthquake occurred in Haití in 2010, obtained from an earth observation satellite called GeoEye-1.
 
 As an example, the images have this look:
 
@@ -13,7 +13,7 @@ As an example, the images have this look:
 ![kitten](samples/undamaged/post_007_094.png "Undamaged")
 ![kitten](samples/undamaged/post_008_057.png "Undamaged")
 
-The main goal is to implement this neural network in Intel´s devices. Hence, we will use the [OpenVino Toolkit](https://software.intel.com/en-us/openvino-toolkit) to obtain a multiplatform and optimized model to be used in Intel´s hardware.
+Being the main goal to implement this neural network in Intel´s devices. Hence, we will use the [OpenVino Toolkit](https://software.intel.com/en-us/openvino-toolkit) to obtain a multiplatform and optimized model to be used in Intel´s hardware.
 ## **Neural Network**
 This CNN (Convolutional Neural Network) is deployed in Keras by [Tensorflow](https://www.tensorflow.org/api_docs/python/tf) using Python. The version of Tensorflow is **2.2** for development, but for OpenVino, the **v2.0** is needed (check the rest of tools and dependencies in OpenVino´s website). This model is formed by the next layers:
 
